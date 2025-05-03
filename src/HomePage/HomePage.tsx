@@ -14,6 +14,7 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
+      
       <Filter />
       <ProductContainer1 />
       <ProductSlide />

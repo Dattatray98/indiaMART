@@ -29,14 +29,7 @@ const Links = () => {
           <div className="hidden group-hover:block absolute top-9 right-0 w-64 rounded-md bg-white text-black shadow-lg p-4 text-[13px] leading-6">
             <p className="text-gray-500 text-xs mb-2">Find answers to your queries</p>
             <ul className="space-y-2">
-              <li>For <b>Buying</b></li>
-              <li>For <b>Selling</b></li>
-              <li>Share your Feedback</li>
-              <li>Raise a Complaint</li>
-              <li>Email us on <br /><b>customercare@indiamart.com</b></li>
-              <li>Call us at <b>096-9696-9696</b></li>
-              <li>Chat with us</li>
-              <li>Seller Academy</li>
+             <li></li>
             </ul>
           </div>
         </div>

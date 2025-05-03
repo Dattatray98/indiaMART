@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SearchBarFilters from '../FilterComponent/SearchBarFilters';
 
 const SearchBar: React.FC = () => {
   const [isRotated, setIsRotated] = useState<boolean>(false);
@@ -24,13 +25,7 @@ const SearchBar: React.FC = () => {
           />
         </div>
 
-        <div className="w-[360px] p-3 border-l-1 h-[35px] flex items-center">
-          <input
-            type="text"
-            placeholder="Enter Product/Service to search"
-            className="bg-transparent w-[400px] h-[35px] outline-none"
-          />
-        </div>
+        <SearchBarFilters />
 
         <img src="/google-voice.png" alt="voice search" className="w-[30px] h-[33px] cursor-pointer" />
 
