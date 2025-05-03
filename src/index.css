@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-.font-style{
+.font-style {
     font-family: Roboto, Arial, sans-serif;
 }
 
-.box-shadow{
+.box-shadow {
     box-shadow: 0 4px 8px 0 rgba(170, 170, 170, 0.19), 0 6px 20px 0 rgba(170, 170, 170, 0.19);
 }
 

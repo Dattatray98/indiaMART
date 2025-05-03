@@ -1,24 +1,24 @@
 const Links = () => {
-  
-    return (
-      <>
-        <div className="flex gap-10 p-1 bg-transparent h-[55p] text-white absolute right-2 font-style">
 
-          {/* Shopping */}
-          <div className="flex flex-col items-center">
-            <img src="/shopping.png" alt="shopping" className="w-5 h-5" />
-            <span className="text-[12px] mt-1">Shopping</span>
-          </div>
+  return (
+    <>
+      <div className="flex gap-10 p-1 bg-transparent h-[55p] text-white absolute right-2 font-style">
 
-  
-          {/* Sell */}
-          <div
-          onClick={()=>{"/ProductView.tsx"}}
+        {/* Shopping */}
+        <div className="flex flex-col items-center">
+          <img src="/shopping.png" alt="shopping" className="w-5 h-5" />
+          <span className="text-[12px] mt-1">Shopping</span>
+        </div>
+
+
+        {/* Sell */}
+        <div
+          onClick={() => { "/ProductView.tsx" }}
           className="flex flex-col items-center">
-            <img src="/shop.png" alt="sell" className="w-5 h-5" />
-            <span className="text-[12px] mt-1">Sell</span>
-          </div>
-   {/* Help Dropdown */}
+          <img src="/shop.png" alt="sell" className="w-5 h-5" />
+          <span className="text-[12px] mt-1">Sell</span>
+        </div>
+        {/* Help Dropdown */}
         <div className="relative group flex flex-col">
           <img src="/help.png" alt="help" className="w-5 h-5" />
           <a href="#" className=" text-[12px] mt-1">Help</a>
@@ -38,21 +38,20 @@ const Links = () => {
             </ul>
           </div>
         </div>
-  
-          {/* Messages */}
-          <div className="flex flex-col items-center">
-            <img src="/message.png" alt="messages" className="w-5 h-5" />
-            <span className="text-[12px] mt-1">Messages</span>
-          </div>
 
-          <div className="flex flex-col items-center">
-            <img src="/profile.png" alt="messages" className="w-5 h-5" />
-            <span className="text-[12px] mt-1">Profile</span>
-          </div>
+        {/* Messages */}
+        <div className="flex flex-col items-center">
+          <img src="/message.png" alt="messages" className="w-5 h-5" />
+          <span className="text-[12px] mt-1">Messages</span>
         </div>
-      </>
-    );
-  };
-  
-  export default Links;
-  
+
+        <div className="flex flex-col items-center">
+          <img src="/profile.png" alt="messages" className="w-5 h-5" />
+          <span className="text-[12px] mt-1">Profile</span>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Links;

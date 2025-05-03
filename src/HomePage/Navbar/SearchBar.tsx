@@ -17,9 +17,8 @@ const SearchBar: React.FC = () => {
           <img
             src="/down-arrow.png"
             alt="arrow"
-            className={`h-[10px] absolute right-0 transform transition-transform duration-600 ${
-              isRotated ? 'rotate-180' : 'rotate-0'
-            }`}
+            className={`h-[10px] absolute right-0 transform transition-transform duration-600 ${isRotated ? 'rotate-180' : 'rotate-0'
+              }`}
             onClick={CitySearchClick}
             style={{ cursor: 'pointer' }}
           />
