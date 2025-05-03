@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import HomePage from './HomePage/HomePage';
+import React from 'react';
 
 const AnimatedRoutes = () => {
   const location = useLocation();

@@ -1,4 +1,5 @@
 
+import React from 'react'
 import SmallProductCard1 from '../ProductCards/SmallProductCard1'
 
 const ProductContainer = () => {

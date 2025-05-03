@@ -7,6 +7,7 @@ import ProductCardContainer2 from "./ProductContainers/ProductCardConatainer2"
 import ProductContainer from "./ProductContainers/ProductContainer"
 import ProductContainer1 from "./ProductContainers/ProductContainer1"
 import RequirementContainer from "./ProductContainers/RequirementContainer"
+import React from "react"
 
 const HomePage = () => {
   return (

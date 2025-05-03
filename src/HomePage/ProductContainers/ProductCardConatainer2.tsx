@@ -1,3 +1,4 @@
+import React from "react"
 import SmallProductCard2 from "../ProductCards/SmallProductCard2"
 
 

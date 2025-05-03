@@ -1,3 +1,4 @@
+import React from "react";
 import ProductCategorieCard from "../ProductCards/ProductCategorieCard";
 
 type ProductCard = {
