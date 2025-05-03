@@ -1,5 +1,5 @@
 
-const ProdcutSlide = () => {
+const ProductSlide = () => {
   return (
     <div className='h-[384px] py-[15px] bg-[#F3F3F3] '>
       <div className='h-[350px] border-2 border-green-500 flex mx-[10px]'>
@@ -12,4 +12,4 @@ const ProdcutSlide = () => {
   )
 }
 
-export default ProdcutSlide
+export default ProductSlide
