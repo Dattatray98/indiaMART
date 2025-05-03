@@ -8,11 +8,13 @@ import ProductContainer from "./ProductContainers/ProductContainer"
 import ProductContainer1 from "./ProductContainers/ProductContainer1"
 import RequirementContainer from "./ProductContainers/RequirementContainer"
 import React from "react"
+import Filter from "./FilterComponent/Filter"
 
 const HomePage = () => {
   return (
     <>
       <Navbar />
+      <Filter />
       <ProductContainer1 />
       <ProductSlide />
       <div className="h-[80px] mx-[10px] border-2">Advertisement</div>

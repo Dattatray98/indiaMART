@@ -41,7 +41,7 @@ const productCards: ProductCard[] = [
 
 const ProductContainer1 = () => {
   return (
-    <div className="h-[660px] bg-[#F3F3F3] p-3 mt-3">
+    <div className="h-[660px] bg-[#F3F3F3] p-3 my-3">
       <div className="h-[660px] bg-white box-shadow p-4 gap-2 flex-wrap overflow-y-hidden">
         <div className="text-[23px] font-style font-medium text-[#323232]">Categories You May Like</div>
 
