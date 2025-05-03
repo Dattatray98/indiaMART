@@ -19,9 +19,11 @@ const AnimatedRoutes = () => {
 
 const App = () => {
   return (
+
     <BrowserRouter>
       <AnimatedRoutes />
     </BrowserRouter>
+    
   );
 };
 
