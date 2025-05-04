@@ -111,61 +111,228 @@
       "image": "/Products/E9.png"
     }
   ],
-
   "Industrial Plants, Machinery & Equipment": [
     {
       "id": 1,
-      "title": "Office Automation Products",
-      "description": "Multifunction Printer Xerox Machines Fingerprint Scanners",
-      "image": "/Products/E1.png"
+      "title": "Food Processing Machine",
+      "description": "Flour Mill Rice Mill Machinery Spice Processing Machines",
+      "image": "/Products/I1.png"
     },
     {
       "id": 2,
-      "title": "Sensors & Transducers",
-      "description": "Level Sensors, Proximity Sensor Sensor for Home & Office Load Cell",
-      "image": "/Products/E2.png"
+      "title": "Bag Making Machine",
+      "description": "Non Woven Bag Making Machine Paper Bag Making Machine Biodegradable Bag Making Machine",
+      "image": "/Products/I2.png"
     },
     {
       "id": 3,
-      "title": "Process Controllers",
-      "description": "Level Controllers, Motor Controllers, Temperature Controller",
-      "image": "/Products/E3.png"
+      "title": "Snack Machine",
+      "description": "Popcorn Machines Pani Puri Making Machine Namkeen Making Machines",
+      "image": "/Products/I3.png"
     },
     {
       "id": 4,
-      "title": "Control & Automation",
-      "description": "VFD, PLC, HMI",
-      "image": "/Products/E4.png"
+      "title": "Bakery & Dairy Machinery",
+      "description": "Bakery Machinery Bakery Oven Sweets Making Machine",
+      "image": "/Products/I4.png"
     },
     {
       "id": 5,
-      "title": "Diodes & Active Devices",
-      "description": "Integrated Circuits Thyristors Light Emitting Diode",
-      "image": "/Products/E5.png"
+      "title": "CNC Machines & Lathe Machine",
+      "description": "Lathe Machine CNC Machines CNC Vertical Machining Centers",
+      "image": "/Products/I5.png"
     },
     {
       "id": 6,
-      "title": "Wires & Cables",
-      "description": "House Wire, Armoured Cable,Power Cable",
-      "image": "/Products/E6.png"
+      "title": "Printing Machine",
+      "description": "Large Format Printers Offset Printing Machines Sublimation Printing Machine",
+      "image": "/Products/I6.png"
     },
     {
       "id": 7,
-      "title": "Commercial Lights",
-      "description": "Flood Lights, Street Lights, Panel Light",
-      "image": "/Products/E7.png"
+      "title": "Air Compressors",
+      "description": "Oil Free Air Compressor Reciprocating Compressors Refrigeration Compressors",
+      "image": "/Products/I7.png"
     },
     {
       "id": 8,
-      "title": "Batteries",
-      "description": "Lithium Battery, Inverter Batteries, Electric Vehicle Battery",
-      "image": "/Products/E8.png"
+      "title": "Water Purification Plants",
+      "description": "Water Softening Systems Water Treatment Plants Reverse Osmosis Plants",
+      "image": "/Products/I8.png"
     },
     {
       "id": 9,
-      "title": "Solar & Renewable Energy",
-      "description": "Solar Panels, Solar Inverter, Solar Pumps",
-      "image": "/Products/E9.png"
+      "title": "Food Processing Plants",
+      "description": "Animal Feed Making Machine Sugarcane Juice Machine Wet Grinder",
+      "image": "/Products/I9.png"
+    }
+  ],
+  "Food, Agriculture & Farming": [
+    {
+      "id": 1,
+      "title": "Rice",
+      "description": "Basmati Rice, Kolam Rice, Ponni Rice, Sona Masoori Rice",
+      "image": "/Products/F1.png"
+    },
+    {
+      "id": 2,
+      "title": "wheat",
+      "description": "Wheat Grains, Milling Wheat, Lokwan Wheat",
+      "image": "/Products/F2.png"
+    },
+    {
+      "id": 3,
+      "title": "Pulses",
+      "description": "Toor Dal, Chana Dal, Urad Dal, Moong Dal",
+      "image": "/Products/F3.png"
+    },
+    {
+      "id": 4,
+      "title": "Fresh Vegetables",
+      "description": "Potato, Onion, Tomato, Mushroom",
+      "image": "/Products/F4.png"
+    },
+    {
+      "id": 5,
+      "title": "Whole Spices",
+      "description": "Green Cardamom, Black Pepper, Cardamom, Turmeric",
+      "image": "/Products/F5.png"
+    },
+    {
+      "id": 6,
+      "title": "Seeds",
+      "description":"Vegetable Seeds, Hybrid Seeds, Seed Spices, Oil Seeds",
+      "image": "/Products/IE6.png"
+    },
+    {
+      "id": 7,
+      "title": "Fertilizer",
+      "description": "Organic Fertilizers, Bio Fertilizers, Vermicompost, NPK Fertilizer",
+      "image": "/Products/F7.png"
+    },
+    {
+      "id": 8,
+      "title": "Agricultural Tools",
+      "description": "Agricultural Sprayers, Agricultural Plough, Disc Harrow, Land Leveler",
+      "image": "/Products/F8.png"
+    },
+    {
+      "id": 9,
+      "title": "Agricultural Machinery",
+      "description": "Brush Cutters, Chain Saw, Power Weeder, Power Tiller",
+      "image": "/Products/F9.png"
+    }
+  ],
+  "Industrial & Engineering Products, Spares and Supplies": [
+    {
+      "id": 1,
+      "title": "Submersible Pump",
+      "description": "Borewell Submersible Pump CRI Submersible Pumps Open Well Submersible Pump",
+      "image": "/Products/IE1.png"
+    },
+    {
+      "id": 2,
+      "title": "Automotive Oils",
+      "description": "Engine Oil Gear Oil Lubricating Oil",
+      "image": "/Products/IE2.png"
+    },
+    {
+      "id": 3,
+      "title": "Water Tanks",
+      "description": "Triple Layered Water Tanks Stainless Steel Water Tank Supreme Water Tanks",
+      "image": "/Products/IE3.png"
+    },
+    {
+      "id": 4,
+      "title": "PVC Sheets",
+      "description": "PVC Foam Sheets PVC Marble Sheet Transparent PVC Sheet",
+      "image": "/Products/IE4.png"
+    },
+    {
+      "id": 5,
+      "title": "Conveyor Components",
+      "description": "Conveyor Belt Conveyor Rollers Conveyor Chains",
+      "image": "/Products/IE5.png"
+    },
+    {
+      "id": 6,
+      "title": "Plastic Scrap",
+      "description": "PP Scrap Pet Bottle Scrap PET Chips Scrap",
+      "image": "/Products/IE6.png"
+    },
+    {
+      "id": 7,
+      "title": "Packaging Tapes",
+      "description": "Self Adhesive Tapes BOPP Tapes Brown Tape",
+      "image": "/Products/IE7.png"
+    },
+    {
+      "id": 8,
+      "title": "Industrial Rack",
+      "description": "Warehouse Racks Slotted Angle Racks Pallet Racks",
+      "image": "/Products/IE8.png"
+    },
+    {
+      "id": 9,
+      "title": "Water Heater & Geyser",
+      "description": "Solar Water Heater Electric Geyser Gas Geyser",
+      "image": "/Products/IE9.png"
+    }
+  ],
+  "Apparel, Clothing & Garments": [
+    {
+      "id": 1,
+      "title": "Ladies Kurtis",
+      "description": "Designer Kurtis, Cotton Kurti, Ladies Woolen Kurti",
+      "image": "/Products/CG1.png"
+    },
+    {
+      "id": 2,
+      "title": "Mens T-Shirts",
+      "description": "Mens Round Neck T Shirt, Mens Polo T Shirt, Graphic Printed T-Shirt",
+      "image": "/Products/CG2.png"
+    },
+    {
+      "id": 3,
+      "title": "Blazers",
+      "description": "Mens Blazer, Womens Blazer, Designer Blazer",
+      "image": "/Products/CG3.png"
+    },
+    {
+      "id": 4,
+      "title": "Safety Shoes",
+      "description": "Leather Safety, Shoes Steel Toe Safety Shoes, Industrial Shoes",
+      "image": "/Products/CG4.png"
+    },
+    {
+      "id": 5,
+      "title": "Trouser",
+      "description": "Cargo Pant, Jogger Pant, Chino Trousers",
+      "image": "/Products/CG5.png"
+    },
+    {
+      "id": 6,
+      "title": "Mannequins",
+      "description": "Female Mannequins, Dress Forms, Male Mannequins",
+      "image": "/Products/CG6.png"
+    },
+    {
+      "id": 7,
+      "title": "Commercial Uniforms",
+      "description": "Worker Uniform, Housekeeping Uniform, Corporate Uniform",
+      "image": "/Products/CG7.png"
+    },
+    {
+      "id": 8,
+      "title": "Shirt",
+      "description": "Printed Shirt, Designer Shirt,Plain Shirt",
+      "image": "/Products/CG8.png"
+    },
+    {
+      "id": 9,
+      "title": "Synthetic Fabric",
+      "description": "Rayon Fabrics, Faux Fur Fabric, Viscose Fabrics",
+      "image": "/Products/CG9.png"
     }
   ]
 }

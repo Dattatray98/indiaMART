@@ -25,10 +25,10 @@ const HomePage = () => {
       <div className="h-[80px] mx-[10px] border-2">Advertisement</div>
       <ProductCardContainer2 />
       <ProductContainer category={"Industrial Plants, Machinery & Equipment"} />
-      <ProductContainer category={""} />
-      <ProductContainer category={""} />
+      <ProductContainer category={"Industrial & Engineering Products, Spares and Supplies"} />
+      <ProductContainer category={"Food, Agriculture & Farming"} />
       <RequirementContainer />
-      <ProductContainer category={""} />
+      <ProductContainer category={"Apparel, Clothing & Garments"} />
       <ProductCardContainer2 />
       <CitySupplierContainer />
       <ProductCardContainer2 />

@@ -27,7 +27,7 @@ const SearchBar: React.FC = () => {
 
         <SearchBarFilters />
 
-        <img src="/google-voice.png" alt="voice search" className="w-[30px] h-[33px] cursor-pointer" />
+        {/* <img src="/google-voice.png" alt="voice search" className="w-[30px] h-[33px] cursor-pointer" /> */}
 
         <div className="flex items-center bg-[#00A699] w-[100px] h-[35px] p-1 gap-2 rounded-r-[3px] cursor-pointer">
           <img src="/search.png" alt="search" className="w-[18px] h-[18px]" />
