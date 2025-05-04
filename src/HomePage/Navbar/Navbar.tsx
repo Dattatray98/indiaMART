@@ -18,7 +18,7 @@ const Navbar = () => {
         <SearchBar />
 
         {/* Get Best Price Button */}
-        <button className="w-[115px] h-[35px] text-[#2E3192] bg-white ml-4 rounded-[3px] font-extrabold text-[15px] font-style">
+        <button className="w-[115px] h-[35px] text-[#2E3192] bg-white ml-4 rounded-[3px] font-semibold text-[15px] font-style">
           Get Best Price
         </button>
 

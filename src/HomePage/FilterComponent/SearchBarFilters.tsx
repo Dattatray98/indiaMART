@@ -1,17 +1,28 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-const suggestionsList = [
-  'React useState example',
-  'JavaScript array methods',
-  'TypeScript interfaces',
-  'Node.js API tutorial',
-  'pranav',
-  'CSS Flexbox guide',
-];
+interface Product {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+}
 
 const SearchBarFilters: React.FC = () => {
   const [query, setQuery] = useState('');
+  const [suggestionsList, setSuggestionsList] = useState<string[]>([]);
   const [filteredSuggestions, setFilteredSuggestions] = useState<string[]>([]);
+
+  // Fetch JSON data on component mount
+  useEffect(() => {
+    fetch('/data.json') // Make sure data.json is inside /public folder
+      .then((res) => res.json())
+      .then((data) => {
+        // Flatten all products into one array
+        const allProducts = Object.values(data).flat() as Product[];
+        const allTitles = allProducts.map((item) => item.title);
+        setSuggestionsList(allTitles);
+      });
+  }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
@@ -43,7 +54,7 @@ const SearchBarFilters: React.FC = () => {
         className="bg-transparent w-[400px] h-[35px] outline-none"
       />
       {filteredSuggestions.length > 0 && (
-        <ul className="absolute z-10 w-full bg-white border border-gray-200 rounded-md mt-1 shadow-lg max-h-60 overflow-y-auto">
+        <ul className="absolute top-8 z-10 w-full bg-white border border-gray-200 rounded-md mt-1 shadow-lg max-h-60 overflow-y-auto">
           {filteredSuggestions.map((suggestion, index) => (
             <li
               key={index}

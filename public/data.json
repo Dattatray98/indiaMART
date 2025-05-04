@@ -1,0 +1,171 @@
+{
+  "Building Construction Material & Equipment": [
+    {
+      "id": 1,
+      "title": "Brick Making Machines",
+      "description": "Fly Ash Brick Making Machine Clay Brick Making Machine Cement Brick Making Machine",
+      "image": "/Products/b1.png"
+    },
+    {
+      "id": 2,
+      "title": "Passenger Lifts",
+      "description": "Residential Elevator Kone Passenger lift Stair Lift",
+      "image": "/Products/b2.png"
+    },
+    {
+      "id": 3,
+      "title": "TMT Bars",
+      "description": "TMT Steel Bars TATA TMT Bars Kamdhenu TMT Bars",
+      "image": "/Products/b3.png"
+    },
+    {
+      "id": 4,
+      "title": "Plywoods",
+      "description": "Shuttering Plywood Laminated Plywood Waterproof Plywood",
+      "image": "/Products/b4.png"
+    },
+    {
+      "id": 5,
+      "title": "Excavator",
+      "description": "Hitachi Excavator Hyundai Excavator Komatsu Excavator",
+      "image": "/Products/b5.png"
+    },
+    {
+      "id": 6,
+      "title": "Emulsion Paints",
+      "description": "Asian Emulsion Paints Berger Emulsion Paints Nerolac Emulsion Paints",
+      "image": "/Products/b6.png"
+    },
+    {
+      "id": 7,
+      "title": "Wooden Door",
+      "description": "Designer Wooden Door Plywood Door Wooden Flush Doors",
+      "image": "/Products/b7.png"
+    },
+    {
+      "id": 8,
+      "title": "PVC Pipes",
+      "description": "Finolex Pipes Rigid PVC Pipes Flexible PVC Pipes",
+      "image": "/Products/b8.png"
+    },
+    {
+      "id": 9,
+      "title": "Building Brick",
+      "description": "Red Brick Fly Ash Bricks Cement Brick",
+      "image": "/Products/b9.png"
+    }
+  ],
+  "Electronics & Electrical Goods & Supplies": [
+    {
+      "id": 1,
+      "title": "Office Automation Products",
+      "description": "Multifunction Printer Xerox Machines Fingerprint Scanners",
+      "image": "/Products/E1.png"
+    },
+    {
+      "id": 2,
+      "title": "Sensors & Transducers",
+      "description": "Level Sensors, Proximity Sensor Sensor for Home & Office Load Cell",
+      "image": "/Products/E2.png"
+    },
+    {
+      "id": 3,
+      "title": "Process Controllers",
+      "description": "Level Controllers, Motor Controllers, Temperature Controller",
+      "image": "/Products/E3.png"
+    },
+    {
+      "id": 4,
+      "title": "Control & Automation",
+      "description": "VFD, PLC, HMI",
+      "image": "/Products/E4.png"
+    },
+    {
+      "id": 5,
+      "title": "Diodes & Active Devices",
+      "description": "Integrated Circuits Thyristors Light Emitting Diode",
+      "image": "/Products/E5.png"
+    },
+    {
+      "id": 6,
+      "title": "Wires & Cables",
+      "description": "House Wire, Armoured Cable,Power Cable",
+      "image": "/Products/E6.png"
+    },
+    {
+      "id": 7,
+      "title": "Commercial Lights",
+      "description": "Flood Lights, Street Lights, Panel Light",
+      "image": "/Products/E7.png"
+    },
+    {
+      "id": 8,
+      "title": "Batteries",
+      "description": "Lithium Battery, Inverter Batteries, Electric Vehicle Battery",
+      "image": "/Products/E8.png"
+    },
+    {
+      "id": 9,
+      "title": "Solar & Renewable Energy",
+      "description": "Solar Panels, Solar Inverter, Solar Pumps",
+      "image": "/Products/E9.png"
+    }
+  ],
+
+  "Industrial Plants, Machinery & Equipment": [
+    {
+      "id": 1,
+      "title": "Office Automation Products",
+      "description": "Multifunction Printer Xerox Machines Fingerprint Scanners",
+      "image": "/Products/E1.png"
+    },
+    {
+      "id": 2,
+      "title": "Sensors & Transducers",
+      "description": "Level Sensors, Proximity Sensor Sensor for Home & Office Load Cell",
+      "image": "/Products/E2.png"
+    },
+    {
+      "id": 3,
+      "title": "Process Controllers",
+      "description": "Level Controllers, Motor Controllers, Temperature Controller",
+      "image": "/Products/E3.png"
+    },
+    {
+      "id": 4,
+      "title": "Control & Automation",
+      "description": "VFD, PLC, HMI",
+      "image": "/Products/E4.png"
+    },
+    {
+      "id": 5,
+      "title": "Diodes & Active Devices",
+      "description": "Integrated Circuits Thyristors Light Emitting Diode",
+      "image": "/Products/E5.png"
+    },
+    {
+      "id": 6,
+      "title": "Wires & Cables",
+      "description": "House Wire, Armoured Cable,Power Cable",
+      "image": "/Products/E6.png"
+    },
+    {
+      "id": 7,
+      "title": "Commercial Lights",
+      "description": "Flood Lights, Street Lights, Panel Light",
+      "image": "/Products/E7.png"
+    },
+    {
+      "id": 8,
+      "title": "Batteries",
+      "description": "Lithium Battery, Inverter Batteries, Electric Vehicle Battery",
+      "image": "/Products/E8.png"
+    },
+    {
+      "id": 9,
+      "title": "Solar & Renewable Energy",
+      "description": "Solar Panels, Solar Inverter, Solar Pumps",
+      "image": "/Products/E9.png"
+    }
+  ]
+}

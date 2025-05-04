@@ -19,16 +19,16 @@ const HomePage = () => {
       <ProductContainer1 />
       <ProductSlide />
       <div className="h-[80px] mx-[10px] border-2">Advertisement</div>
-      <ProductContainer />
-      <ProductContainer />
+      <ProductContainer category={"Building Construction Material & Equipment"} />
+      <ProductContainer category={"Electronics & Electrical Goods & Supplies"} />
       <ProductCardContainer2 />
       <div className="h-[80px] mx-[10px] border-2">Advertisement</div>
       <ProductCardContainer2 />
-      <ProductContainer />
-      <ProductContainer />
-      <ProductContainer />
+      <ProductContainer category={"Industrial Plants, Machinery & Equipment"} />
+      <ProductContainer category={""} />
+      <ProductContainer category={""} />
       <RequirementContainer />
-      <ProductContainer />
+      <ProductContainer category={""} />
       <ProductCardContainer2 />
       <CitySupplierContainer />
       <ProductCardContainer2 />
