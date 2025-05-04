@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SmallProductCard1 from '../ProductCards/SmallProductCard1';
+import { button, image, img } from 'framer-motion/client';
 
 // Define a TypeScript interface for product data
 interface Product {
@@ -7,6 +8,8 @@ interface Product {
   title: string;
   description: string;
   image: string;
+  Mimage: string;
+  Mimagedis: string;
 }
 
 const ProductContainer = ({ category }: { category: string }) => {
@@ -31,7 +34,17 @@ const ProductContainer = ({ category }: { category: string }) => {
 
           <div className="flex">
             <div className="h-[441px] w-[325px] border-1 border-[#EBEBEB] mx-[20px] my-[15px]">
-              <div className="h-[441px]"></div>
+              <div className=" relative h-[441px]">
+              {products.map((product) => (
+                <img src={product.Mimage} alt=""  className='h-[441px] absolute'/>
+              ))}
+               {products.map((product) => (
+              <h1 className='font-style font-medium text-[18px] absolute bottom-20 text-white left-8'>{product.Mimagedis}</h1>
+              ))}
+               <button className=" absolute bottom-5 left-10 px-[15px] py-[5px] bg-[#007a6e] text-white rounded-[4px] w-[130px] text-[18px] font-style font-medium">
+                View All
+            </button>
+              </div>
             </div>
 
             <div className="h-[456px] w-[1145px] flex flex-wrap">

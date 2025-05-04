@@ -16,32 +16,19 @@ const HomePage = () => {
       <Navbar />
       
       <Filter />
-      <ProductContainer1 />
+      <ProductContainer1 category={"Categories You May Like"} />
       <ProductSlide />
-      <div className="h-[80px] mx-[10px] border-2">Advertisement</div>
+      <div className="h-[80px] mx-[10px] flex justify-center"><img src="add2.png" alt="Advertisement" className=" h-[80px]" /></div>
       <ProductContainer category={"Building Construction Material & Equipment"} />
       <ProductContainer category={"Electronics & Electrical Goods & Supplies"} />
       <ProductCardContainer2 category={"Pharmaceutical Drug, Medicine, Medical Care & Consultation"} />
-      <div className="h-[80px] mx-[10px] border-2">Advertisement</div>
-      <ProductCardContainer2 category={""} />
+      <div className="h-[100px] mx-[10px] flex justify-center"><img src="add1.png" alt="Advertisement" className=" h-[99px]" /></div>
       <ProductContainer category={"Industrial Plants, Machinery & Equipment"} />
       <ProductContainer category={"Industrial & Engineering Products, Spares and Supplies"} />
       <ProductContainer category={"Food, Agriculture & Farming"} />
       <RequirementContainer />
       <ProductContainer category={"Apparel, Clothing & Garments"} />
-      <ProductCardContainer2 category={""} />
-      <CitySupplierContainer />
-      <ProductCardContainer2 category={""} />
-      <ProductCardContainer2 category={""} />
-      <div className="h-[128px] mx-[10px] my-[20px] border-2"></div>
       <BrandContainer />
-      <div className="mt-[20px]">
-        <div className="h-[308px] mx-[10px] shadow bg-white">
-          <div className="h-[308px] p-[15px]">
-            <h3 className="text-[28px] text-[#323232] font-medium">More for You</h3>
-          </div>
-        </div>
-      </div>
     </>
   )
 }

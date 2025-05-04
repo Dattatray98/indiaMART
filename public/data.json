@@ -1,6 +1,75 @@
 {
+  "Categories You May Like": [
+    {
+      "id": 1,
+      "title": "Generic Medicines",
+      "image": "/Products/P1.png"
+    },
+    {
+      "id": 2,
+      "title": "Surgical Gloves",
+      "image": "/Products/surgical.png"
+    },
+    {
+      "id": 3,
+      "title": "Basmati Rice",
+      "image": "/Products/brice.png"
+    },
+    {
+      "id": 4,
+      "title": "Flex Printing Machine",
+      "image": "/Products/printer.png"
+    },
+    {
+      "id": 5,
+      "title": "Decorative Wall Panel",
+      "image": "/Products/wallpanel.png"
+    },
+    {
+      "id": 6,
+      "title": "Dyed Cotton Yarn",
+      "image": "/Products/cotton.png"
+    },
+    {
+      "id": 7,
+      "title": "DJI Drone Camera",
+      "image": "/Products/dron.png"
+    },
+    {
+      "id": 8,
+      "title": "Corrugated Box",
+      "image": "/Products/boxcart.png"
+    },
+    {
+      "id": 9,
+      "title": "Epoxy Resins",
+      "image": "/Products/resin.png"
+    },
+    {
+      "id": 10,
+      "title": "MS Bolt Nut",
+      "image": "/Products/nutbolt.png"
+    }
+  ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "Building Construction Material & Equipment": [
     {
+      "Mimage":"/Products/civl.png",
+      "Mimagedis" : "Prefabricated Houses, Scaffolding Planks & Plates, Construction Machines, Crushing Machines & Plants",
       "id": 1,
       "title": "Brick Making Machines",
       "description": "Fly Ash Brick Making Machine Clay Brick Making Machine Cement Brick Making Machine",
@@ -57,6 +126,8 @@
   ],
   "Electronics & Electrical Goods & Supplies": [
     {
+      "Mimage":"/Products/wire.png",
+      "Mimagedis" : "Voltage & Power Stabilizers, GPS and Navigation Devices, Biometrics & Access Control Devices, CCTV, Surveillance Systems and Parts",
       "id": 1,
       "title": "Office Automation Products",
       "description": "Multifunction Printer Xerox Machines Fingerprint Scanners",
@@ -113,6 +184,8 @@
   ],
   "Industrial Plants, Machinery & Equipment": [
     {
+      "Mimage":"/Products/pharma.png",
+      "Mimagedis" : "Pharma Raw Material, Pharmaceutical Chemical, Clinical Trial Services, X-Ray Services",
       "id": 1,
       "title": "Food Processing Machine",
       "description": "Flour Mill Rice Mill Machinery Spice Processing Machines",
@@ -169,6 +242,8 @@
   ],
   "Food, Agriculture & Farming": [
     {
+      "Mimage":"/Products/food.png",
+      "Mimagedis" : "Dairy Products, Cooking Oil, Tractor, Cultivator",
       "id": 1,
       "title": "Rice",
       "description": "Basmati Rice, Kolam Rice, Ponni Rice, Sona Masoori Rice",
@@ -335,6 +410,7 @@
       "image": "/Products/CG9.png"
     }
   ],
+
   "Pharmaceutical Drug, Medicine, Medical Care & Consultation": [
     {
       "id": 1,

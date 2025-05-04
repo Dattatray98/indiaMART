@@ -25,7 +25,9 @@ const ProductCardConatainer2 = ({ category }: {category:string}) => {
 
           <div className="flex">
             <div className="h-[359px] w-[325px] border-1 mx-[20px] mt-[15px]">
-              <div className="h-[359px]"></div>
+              <div className="h-[359px]">
+               
+              </div>
             </div>
 
             <div className="h-[374px] w-[1145px] flex flex-wrap">

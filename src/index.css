@@ -8,4 +8,8 @@
     box-shadow: 0 4px 8px 0 rgba(170, 170, 170, 0.19), 0 6px 20px 0 rgba(170, 170, 170, 0.19);
 }
 
+.box-hover-shadow{
+    box-shadow: 0 4px 8px 0 rgba(78, 78, 78, 0.19), 0 6px 20px 0 rgba(170, 170, 170, 0.19);
+}
+
 @import 'tailwindcss'
