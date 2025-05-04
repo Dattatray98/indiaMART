@@ -1,7 +1,5 @@
 import Navbar from "./Navbar/Navbar"
 import BrandContainer from "./ProductContainers/BrandContainer"
-import CitySupplierContainer from "./ProductContainers/CitySuppierContainer"
-
 import ProductSlide from "./ProductContainers/ProductSlide"
 import ProductCardContainer2 from "./ProductContainers/ProductCardConatainer2"
 import ProductContainer from "./ProductContainers/ProductContainer"

@@ -184,8 +184,7 @@
   ],
   "Industrial Plants, Machinery & Equipment": [
     {
-      "Mimage":"/Products/pharma.png",
-      "Mimagedis" : "Pharma Raw Material, Pharmaceutical Chemical, Clinical Trial Services, X-Ray Services",
+     
       "id": 1,
       "title": "Food Processing Machine",
       "description": "Flour Mill Rice Mill Machinery Spice Processing Machines",
@@ -413,6 +412,8 @@
 
   "Pharmaceutical Drug, Medicine, Medical Care & Consultation": [
     {
+      "Mimage":"/Products/pharma.png",
+      "Mimagedis" : "Pharma Raw Material, Pharmaceutical Chemical, Clinical Trial Services, X-Ray Services",
       "id": 1,
       "title": "Ladies Kurtis",
       "description": "Designer Kurtis, Cotton Kurti, Ladies Woolen Kurti",

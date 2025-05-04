@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import SmallProductCard1 from '../ProductCards/SmallProductCard1';
-import { button, image, img } from 'framer-motion/client';
 
 // Define a TypeScript interface for product data
 interface Product {
