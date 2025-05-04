@@ -334,5 +334,43 @@
       "description": "Rayon Fabrics, Faux Fur Fabric, Viscose Fabrics",
       "image": "/Products/CG9.png"
     }
+  ],
+  "Pharmaceutical Drug, Medicine, Medical Care & Consultation": [
+    {
+      "id": 1,
+      "title": "Ladies Kurtis",
+      "description": "Designer Kurtis, Cotton Kurti, Ladies Woolen Kurti",
+      "image": "/Products/P1.png"
+    },
+    {
+      "id": 2,
+      "title": "Mens T-Shirts",
+      "description": "Mens Round Neck T Shirt, Mens Polo T Shirt, Graphic Printed T-Shirt",
+      "image": "/Products/CG2.png"
+    },
+    {
+      "id": 3,
+      "title": "Blazers",
+      "description": "Mens Blazer, Womens Blazer, Designer Blazer",
+      "image": "/Products/CG3.png"
+    },
+    {
+      "id": 4,
+      "title": "Safety Shoes",
+      "description": "Leather Safety, Shoes Steel Toe Safety Shoes, Industrial Shoes",
+      "image": "/Products/CG4.png"
+    },
+    {
+      "id": 5,
+      "title": "Trouser",
+      "description": "Cargo Pant, Jogger Pant, Chino Trousers",
+      "image": "/Products/CG5.png"
+    },
+    {
+      "id": 6,
+      "title": "Mannequins",
+      "description": "Female Mannequins, Dress Forms, Male Mannequins",
+      "image": "/Products/CG6.png"
+    }
   ]
 }

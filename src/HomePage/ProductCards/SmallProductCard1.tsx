@@ -1,6 +1,6 @@
 import React from "react";
 
-// Define a TypeScript interface for the props
+
 interface ProductProps {
   title: string;
   description: string;

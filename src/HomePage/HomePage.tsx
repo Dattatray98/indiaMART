@@ -21,18 +21,18 @@ const HomePage = () => {
       <div className="h-[80px] mx-[10px] border-2">Advertisement</div>
       <ProductContainer category={"Building Construction Material & Equipment"} />
       <ProductContainer category={"Electronics & Electrical Goods & Supplies"} />
-      <ProductCardContainer2 />
+      <ProductCardContainer2 category={"Pharmaceutical Drug, Medicine, Medical Care & Consultation"} />
       <div className="h-[80px] mx-[10px] border-2">Advertisement</div>
-      <ProductCardContainer2 />
+      <ProductCardContainer2 category={""} />
       <ProductContainer category={"Industrial Plants, Machinery & Equipment"} />
       <ProductContainer category={"Industrial & Engineering Products, Spares and Supplies"} />
       <ProductContainer category={"Food, Agriculture & Farming"} />
       <RequirementContainer />
       <ProductContainer category={"Apparel, Clothing & Garments"} />
-      <ProductCardContainer2 />
+      <ProductCardContainer2 category={""} />
       <CitySupplierContainer />
-      <ProductCardContainer2 />
-      <ProductCardContainer2 />
+      <ProductCardContainer2 category={""} />
+      <ProductCardContainer2 category={""} />
       <div className="h-[128px] mx-[10px] my-[20px] border-2"></div>
       <BrandContainer />
       <div className="mt-[20px]">
